@@ -1,0 +1,16 @@
+D:\programming\FlashcardApi\Service\bin\Debug\netstandard2.0\Service.deps.json
+D:\programming\FlashcardApi\Service\bin\Debug\netstandard2.0\Service.dll
+D:\programming\FlashcardApi\Service\bin\Debug\netstandard2.0\Service.pdb
+D:\programming\FlashcardApi\Service\obj\Debug\netstandard2.0\Service.csprojAssemblyReference.cache
+D:\programming\FlashcardApi\Service\obj\Debug\netstandard2.0\Service.AssemblyInfoInputs.cache
+D:\programming\FlashcardApi\Service\obj\Debug\netstandard2.0\Service.AssemblyInfo.cs
+D:\programming\FlashcardApi\Service\obj\Debug\netstandard2.0\Service.dll
+D:\programming\FlashcardApi\Service\obj\Debug\netstandard2.0\Service.pdb
+D:\programming\FlashcardApi\FlashcardApi\Service\bin\Debug\netstandard2.0\Service.deps.json
+D:\programming\FlashcardApi\FlashcardApi\Service\bin\Debug\netstandard2.0\Service.dll
+D:\programming\FlashcardApi\FlashcardApi\Service\bin\Debug\netstandard2.0\Service.pdb
+D:\programming\FlashcardApi\FlashcardApi\Service\obj\Debug\netstandard2.0\Service.csprojAssemblyReference.cache
+D:\programming\FlashcardApi\FlashcardApi\Service\obj\Debug\netstandard2.0\Service.AssemblyInfoInputs.cache
+D:\programming\FlashcardApi\FlashcardApi\Service\obj\Debug\netstandard2.0\Service.AssemblyInfo.cs
+D:\programming\FlashcardApi\FlashcardApi\Service\obj\Debug\netstandard2.0\Service.dll
+D:\programming\FlashcardApi\FlashcardApi\Service\obj\Debug\netstandard2.0\Service.pdb

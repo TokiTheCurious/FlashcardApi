@@ -1,0 +1,9 @@
+version: '3'
+services:
+  db_flashcard:
+    image: sqlserver_flashcards:latest
+    environment:
+      - 'SA_PASSWORD=yourStrong(!)Password'
+      - 'ACCEPT_EULA=Y'
+
+
