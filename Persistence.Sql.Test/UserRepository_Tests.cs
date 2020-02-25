@@ -8,12 +8,10 @@ namespace Persistence.Sql.Test
     {
         string connectionString = @"Server=localhost;Database=Flashcards;User Id=sa; password=yourStrong(!)Password";
         UserRepository userRepo;
-        Repository repo;
         [SetUp]
         public void Setup()
         {
-            repo = new Repository(connectionString);
-            userRepo = new UserRepository();
+            userRepo = new UserRepository(new Service.Settings.ConnectionSettings {ConnectionString = connectionString });
         }
 
         [Test]

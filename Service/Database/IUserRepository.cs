@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Persistence.Sql
+namespace Service.Database
 {
-    interface IUserRepository
+    public interface IUserRepository : IRepository
     {
         User GetUserById(int id);
     }

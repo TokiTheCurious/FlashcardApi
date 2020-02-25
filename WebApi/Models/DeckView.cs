@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace FlashcardApi.Models
 {
-    public class Deck
+    public class DeckView
     {
         public int Id { get; set; }
         public int User_Id { get; set; }

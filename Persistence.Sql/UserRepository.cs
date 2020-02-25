@@ -1,15 +1,19 @@
-﻿using Service.Models;
+﻿using Service.Database;
+using Service.Models;
+using Service.Settings;
 using System;
 using System.Data.SqlClient;
 
 namespace Persistence.Sql
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository : BaseRepository, IUserRepository
     {
+        public UserRepository(ConnectionSettings conn): base(conn){}
+
         public User GetUserById(int userId)
         {
             User user;
-            using (SqlConnection con = Repository.OpenConnection())
+            using (SqlConnection con = OpenConnection())
             {
                 con.Open();
                 

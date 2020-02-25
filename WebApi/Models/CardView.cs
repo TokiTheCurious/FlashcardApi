@@ -5,9 +5,12 @@ using System.Threading.Tasks;
 
 namespace FlashcardApi.Models
 {
-    public class User
+    public class CardView
     {
         public int Id { get; set; }
-        public int User_Id { get; set; }
+        public string Front { get; set; }
+        public string Back { get; set; }
+        public int Deck_Id { get; set; }
+
     }
 }

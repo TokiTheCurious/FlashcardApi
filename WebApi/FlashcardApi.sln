@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlashcardApi", "FlashcardApi.csproj", "{C0D2BD3B-C58D-47C2-B7E8-A026B4BA1D89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.Sql", "..\Persistence.Sql\Persistence.Sql.csproj", "{B4676454-F430-4889-BAED-093E59D1F026}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence.Sql", "..\Persistence.Sql\Persistence.Sql.csproj", "{B4676454-F430-4889-BAED-093E59D1F026}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.Sql.Test", "..\Persistence.Sql.Test\Persistence.Sql.Test.csproj", "{6EDC0F12-4D86-4D98-A709-69251C7BAE00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence.Sql.Test", "..\Persistence.Sql.Test\Persistence.Sql.Test.csproj", "{6EDC0F12-4D86-4D98-A709-69251C7BAE00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "..\Service\Service.csproj", "{642F7DC1-E6E5-4AD0-B932-1CD4F8E9FE12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "..\Service\Service.csproj", "{642F7DC1-E6E5-4AD0-B932-1CD4F8E9FE12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2943F917-0ABC-4501-9C7D-496B4D07561D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EDC0F12-4D86-4D98-A709-69251C7BAE00} = {2943F917-0ABC-4501-9C7D-496B4D07561D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A71D87DC-E83F-4ADA-A088-C6B1C7AC77AE}
